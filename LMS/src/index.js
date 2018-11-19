@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Footer from './pages/Footer/footer';
-import HelpAndSupport from './pages/Footer/components/HelpAndSupport';
+import Footer from './pages/Home/Footer/footer';
+
 import * as serviceWorker from './serviceWorker';
 
 
