@@ -1,12 +1,13 @@
 import React from 'react';
+import '../components/styles.css';
 
 const LoginForm = () => (
     <div>
      <form>
-    <input className ="userName" placeholder = "s123"></input>
-    <input className="passWord" placeholder = "123456789"></input>
+    <input type="text" placeholder = "userName"></input>
+    <input type="password" placeholder = "password"></input>
     </form>
-    <button className = "loginBtn">Login</button>
+    <button>Login</button>
     </div>
 )
 

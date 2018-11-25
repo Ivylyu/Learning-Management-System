@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
-import Home from '../LMS/src/pages/HomePage/Home.jsx'
+import Home from '../pages/HomePage/Home'
 
 const Router = () => (
     <BrowserRouter>
@@ -9,3 +9,5 @@ const Router = () => (
     </Switch>
     </BrowserRouter>
 );
+
+export default Router;
