@@ -1,14 +1,15 @@
-import React from 'react';
-import '../components/styles.css';
+import React from "react";
+import "../components/styles.css";
 
 const LoginForm = () => (
-    <div>
-     <form>
-    <input type="text" placeholder = "userName"></input>
-    <input type="password" placeholder = "password"></input>
+  <div className="signInFormContainer">
+    <form className="loginForm">
+      <input type="text" placeholder="userName" />
+      <input type="password" placeholder="password" />
+      <button>Login</button>
     </form>
-    <button>Login</button>
-    </div>
-)
+    
+  </div>
+);
 
 export default LoginForm;

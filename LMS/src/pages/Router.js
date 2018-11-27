@@ -6,6 +6,8 @@ const Router = () => (
     <BrowserRouter>
     <Switch>
         <Route exact path="/" component={Home}/>
+        {/* <Route path="/LMS/:UserId" component={Dashboard}/> */}
+        {/* <Route path="/LMS/:UserId/courses" component={Account} /> */}
     </Switch>
     </BrowserRouter>
 );
