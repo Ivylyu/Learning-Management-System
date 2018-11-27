@@ -1,0 +1,33 @@
+body{
+  color:#f5f9f5;
+  font-size: 14px;
+  line-height:150%;
+}
+
+a {
+  text-decoration: none;
+  color:#006fd7;
+}
+
+.footer {
+      font-family: Roboto;
+      background-color:#001529;  
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .help-and-support {
+    margin:20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .content {
+    color:#006fd7;
+    display: inline;
+  }
+  .footer .quick-link {
+    margin:20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+ 
