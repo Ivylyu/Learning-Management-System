@@ -28,7 +28,7 @@ class HelpAndSupport extends React.Component {
             <Section title="HELP AND SUPPORT">
               <p>For users experiencing difficulities using LMS,Please contact technical support.</p>
               <ContentWithTItle title="Administrator">Dawson Wang</ContentWithTItle>
-              <ContentWithTItle title="Email"><a href="mailto:sdc009988@outlook.com">sdc009988@outlook.com</a></ContentWithTItle>
+              <ContentWithTItle title="Email"><a href="mailto:sdc009988@outlook.com" className="email">sdc009988@outlook.com</a></ContentWithTItle>
               <ContentWithTItle title="Phone">04512353</ContentWithTItle>
             </Section>
             </div>

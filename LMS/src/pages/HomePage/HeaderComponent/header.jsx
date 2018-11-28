@@ -1,12 +1,13 @@
 import React from 'react';
 import './styles.css';
+import 'typeface-roboto';
 
 const Header = () => (
     <div className="headerContainer">
         <ul className="header">
-            <li>Sign Up</li>
-            <li>Dashboard</li>
-            <li>Profile</li>
+            <li><a href="sign up">Sign Up</a></li>
+            <li><a href="dashboard">Dashboard</a></li>
+            <li><a href="profile">Profile</a></li>
         </ul>
     </div>
 );

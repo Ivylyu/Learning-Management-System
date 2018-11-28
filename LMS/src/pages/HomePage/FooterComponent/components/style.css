@@ -1,19 +1,16 @@
-body{
-  color:#f5f9f5;
-  font-size: 14px;
-  line-height:150%;
-}
 
-a {
+
+.email{
   text-decoration: none;
   color:#006fd7;
 }
 
 .footer {
-      font-family: Roboto;
       background-color:#001529;  
       display:grid;
       grid-template-columns: 1fr 1fr 1fr;
+   
+      
   }
 
   .help-and-support {
