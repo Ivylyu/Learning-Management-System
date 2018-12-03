@@ -8,9 +8,7 @@
 .footer {
       background-color:#001529;  
       display:grid;
-      grid-template-columns: 1fr 1fr 1fr;
-   
-      
+      grid-template-columns: 1fr 1fr 1fr;   
   }
 
   .help-and-support {

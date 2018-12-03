@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import 'typeface-roboto';
 
 const Header = () => (
     <div className="headerContainer">

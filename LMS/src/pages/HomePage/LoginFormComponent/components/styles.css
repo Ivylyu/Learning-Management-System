@@ -1,9 +1,8 @@
-
 div.signInFormContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    height:480px;
 }
     
 input[type=text], input[type=password] {
